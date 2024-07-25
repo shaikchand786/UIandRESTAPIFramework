@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-25T09:36:13 IST" name="Suite" finished-at="2024-07-25T09:36:35 IST" duration-ms="22379">
+    <groups>
+    </groups>
+    <test started-at="2024-07-25T09:36:13 IST" name="Test" finished-at="2024-07-25T09:36:35 IST" duration-ms="22379">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@3c77d488]" started-at="2024-07-25T09:36:17 IST" name="setup" finished-at="2024-07-25T09:36:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidLoginTest()[pri:0, instance:tests.LoginTest@3c77d488]" started-at="2024-07-25T09:36:17 IST" name="invalidLoginTest" finished-at="2024-07-25T09:36:22 IST" duration-ms="5875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:tests.LoginTest@3c77d488]" started-at="2024-07-25T09:36:22 IST" name="quitBrowser" finished-at="2024-07-25T09:36:23 IST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method signature="loginTest()[pri:0, instance:tests.LoginTest@3c77d488]" started-at="2024-07-25T09:36:23 IST" name="loginTest" finished-at="2024-07-25T09:36:28 IST" duration-ms="5421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:tests.LoginTest@3c77d488]" started-at="2024-07-25T09:36:28 IST" name="quitBrowser" finished-at="2024-07-25T09:36:28 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@3c77d488]" started-at="2024-07-25T09:36:28 IST" name="tearDown" finished-at="2024-07-25T09:36:28 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="apiTests.PostCreatePostTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:apiTests.PostCreatePostTest@6c1a5b54]" started-at="2024-07-25T09:36:13 IST" name="setup" finished-at="2024-07-25T09:36:13 IST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createPostTest()[pri:0, instance:apiTests.PostCreatePostTest@6c1a5b54]" started-at="2024-07-25T09:36:13 IST" name="createPostTest" finished-at="2024-07-25T09:36:16 IST" duration-ms="3002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPostTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:apiTests.PostCreatePostTest@6c1a5b54]" started-at="2024-07-25T09:36:16 IST" name="tearDown" finished-at="2024-07-25T09:36:16 IST" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- apiTests.PostCreatePostTest -->
+      <class name="apiTests.GetPostsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:apiTests.GetPostsTest@71ba6d4e]" started-at="2024-07-25T09:36:16 IST" name="setup" finished-at="2024-07-25T09:36:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getPostsTest()[pri:0, instance:apiTests.GetPostsTest@71ba6d4e]" started-at="2024-07-25T09:36:16 IST" name="getPostsTest" finished-at="2024-07-25T09:36:17 IST" duration-ms="461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPostsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:apiTests.GetPostsTest@71ba6d4e]" started-at="2024-07-25T09:36:17 IST" name="tearDown" finished-at="2024-07-25T09:36:17 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- apiTests.GetPostsTest -->
+      <class name="tests.LogoutTest">
+        <test-method signature="logoutTest()[pri:0, instance:tests.LogoutTest@63376bed]" started-at="2024-07-25T09:36:28 IST" name="logoutTest" finished-at="2024-07-25T09:36:35 IST" duration-ms="6253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LogoutTest@63376bed]" started-at="2024-07-25T09:36:28 IST" name="setup" finished-at="2024-07-25T09:36:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:tests.LogoutTest@63376bed]" started-at="2024-07-25T09:36:35 IST" name="quitBrowser" finished-at="2024-07-25T09:36:35 IST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LogoutTest@63376bed]" started-at="2024-07-25T09:36:35 IST" name="tearDown" finished-at="2024-07-25T09:36:35 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LogoutTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
